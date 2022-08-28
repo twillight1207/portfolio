@@ -1,0 +1,162 @@
+.top {
+  height: 500px;
+  width: 100%;
+  background: radial-gradient(#975f6c 3px, transparent 4px),
+    radial-gradient(#975f6c 3px, transparent 4px),
+    linear-gradient(#f6a0ba 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #fecdd6 75px,
+      #fecdd6 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #fecdd6 76px,
+      #fecdd6 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #f6a0ba;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  height: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  margin-right: 50px;
+  display: flex;
+}
+
+.menu ul li {
+  font-size: 20px;
+  font-family: "Silkscreen", cursive;
+  color: #90347c;
+  margin: 30px 0px 30px 100px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.logo_msg {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.logo_msg span {
+  font-family: "Silkscreen", cursive;
+  font-size: 12px;
+}
+
+.top img {
+  width: 480px;
+  padding-left: 70px;
+}
+
+.top_line {
+  width: 40%;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+.top_line h2 {
+  font-size: 50px;
+}
+
+.top_line h1 {
+  font-size: 100px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.top_line_name {
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  height: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 3fr;
+}
+
+.about_left_blank {
+  grid-area: 1 / 2 / 3 / 3;
+  background-color: #a1a0aa;
+  background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.about_left_img {
+  grid-area: 1 / 1 / 3 / 2;
+  background-color: #a1a0aa;
+  background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.about_left_img img {
+  display: block;
+  width: 100%;
+  rotate: 180deg;
+}
+
+.about_left_title {
+  grid-area: 1 / 3 / 2 / 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 70px;
+  font-family: "Silkscreen", cursive;
+  letter-spacing: 20px;
+}
+
+.about_left_descrp {
+  grid-area: 3 / 1 / 4 / 2;
+  padding: 30px;
+}
+
+.about_left_descrp p {
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 20px;
+}
+
+.about_right_me {
+  grid-area: 2 / 3/ 4 / 4;
+}
+
+.about_right_me img {
+  display: block;
+  width: 100%;
+}

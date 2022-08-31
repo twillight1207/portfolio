@@ -72,7 +72,7 @@ header {
 
 .top img {
   width: 480px;
-  padding-left: 70px;
+  padding-left: 100px;
 }
 
 .top_line {
@@ -97,7 +97,7 @@ header {
 }
 
 .about {
-  height: 800px;
+  height: 1000px;
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
@@ -113,6 +113,11 @@ header {
     linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.about_left_blank span {
+  display: block;
+  font-family: "Silkscreen", cursive;
 }
 
 .about_left_img {
@@ -159,4 +164,51 @@ header {
 .about_right_me img {
   display: block;
   width: 100%;
+}
+
+.ability_title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-family: "Silkscreen", cursive;
+  letter-spacing: 20px;
+}
+
+.ability_types {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.ability_type {
+  padding: 0 50px 0 50px;
+  font-family: "Silkscreen", cursive;
+  font-size: 30px;
+}
+
+.ability_charts {
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.ability_chart {
+  margin-bottom: 10px;
+}
+
+.ability_chart_bar {
+  background-color: #f6a0ba;
+  width: 100%;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.ability_chart_name {
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 20px;
 }
